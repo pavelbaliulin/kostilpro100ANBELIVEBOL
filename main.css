@@ -87,7 +87,7 @@ header > div > div > p {
 
 .all > div > input {
   background-color: #ffffff;
-  /* box-shadow: 0px 1px 1px 0px #000000; */
+
   height: 46px;
   width: 300px;
   font-family: Arial;
@@ -142,7 +142,7 @@ header > div > div > p {
   margin-left: 299px;
   width: 630px;
   height: 390px;
-  background: url("./Layer\ 4.png");
+  background: url("./image/Layer\ 4.png");
   position: relative;
 }
 .img1 > div {
@@ -224,17 +224,10 @@ header > div > div > p {
 }
 .divs > div {
   height: 380px;
-  /* display: inline-block; */
-  /* margin-left: 10px; */
-  /* margin-right: 11px; */
-  /* padding: 0px; */
   background-color: #dcdcdc;
   position: relative;
-  /* margin-left: 15px; */
 }
-.divs > div:nth-child(1) {
-  /* margin-left: -108px; */
-}
+
 .divs > div > div > p {
   margin-left: 25px;
   margin-top: -179px;
@@ -246,19 +239,16 @@ header > div > div > p {
 }
 .dran1 {
   position: relative;
-  /* margin-left: 301px; */
   left: 301px;
   margin-right: 0;
   margin-left: 0;
 }
 .dran2 {
   position: relative;
-
   margin-left: 20px;
   margin-right: 0;
   left: 301px;
 }
-
 .dran3 {
   position: relative;
   margin-left: 150px;
@@ -273,10 +263,6 @@ header > div > div > p {
   top: -384px;
   left: 100px;
 }
-/* .dran1 > div > p {
-  position: relative;
-  top: -100px;
-} */
 .kub2 > div {
   position: relative;
   top: -78px;
@@ -286,10 +272,6 @@ header > div > div > p {
 .img3 {
   background-color: #dcdcdc;
   height: 1500px;
-
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .divs > div > div > div > h1 {
   font-family: Arial;
@@ -315,7 +297,6 @@ header > div > div > p {
   top: 20px;
   border-left: 4px solid #f26c4f;
 }
-
 .left > div:hover {
   background-color: #f26c4f;
 }
@@ -357,20 +338,6 @@ header > div > div > p {
   margin-left: 939px;
   margin-top: -764px;
 }
-
-/* .palka1 {
-  background-color: #f26c4f;
-  width: 4px;
-  height: 173px;
-  position: absolute;
-  top: 0;
-} */
-/* .palka2 {
-  background-color: #f26c4f;
-  width: 4px;
-  height: 77px;
-  position: absolute;
-} */
 .mini > div:hover > .palka2 {
   background-color: #ce4e32;
 }
@@ -518,7 +485,6 @@ footer > p {
   line-height: 25px;
   text-align: left;
 
-  /* Встроенный стиль */
   font-family: Arial;
   color: #949494;
   font-size: 14px;
@@ -529,8 +495,8 @@ footer > p {
   top: 35px;
   left: 50px;
   margin-right: 90px;
-  margin-top: 3em; /* Отступ сверху */
-  margin-bottom: 3em; /* Отступ снизу */
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 .like > h1 {
   font-family: Arial;
@@ -551,7 +517,6 @@ footer > p {
   line-height: 25px;
   text-align: left;
 
-  /* Встроенный стиль */
   font-family: Arial;
   color: #949494;
   font-size: 14px;
@@ -779,16 +744,9 @@ footer > p {
 .right > div {
   height: 581px;
   width: 300px;
-  /* background-color: #8f8f8f; */
   flex-direction: column-reverse;
   margin-left: 939px;
 }
-/* .right > :last-child {
-  background-color: #373737;
-  box-shadow: 0px 1px 0px 0px #d3d3d3;
-  flex-direction: column-reverse; */
-/* margin-top: 250px; */
-/* } */
 .next {
   position: absolute;
   color: #ffffff;
@@ -919,7 +877,6 @@ footer > p {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: -0.16px;
-  /* line-height: 36px; */
   text-align: left;
   position: relative;
   top: 10px;
